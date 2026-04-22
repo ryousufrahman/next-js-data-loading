@@ -11,7 +11,7 @@ const ShowFoods = ({food}) => {
             {food.cuisine}
           </p>
           <div className="card-actions justify-end">
-           <Link href={'/'}>
+           <Link href={`/foods/${food.id}`}>
             <button className="btn btn-primary">See recipe</button>
            </Link>
           </div>
